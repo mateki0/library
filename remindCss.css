@@ -1,0 +1,68 @@
+html, body {
+	
+	width:100%;
+	top:0;
+	margin:0;
+	padding:0;
+	background:url(book-863418_1920.jpg);
+	background-size: cover;	
+}
+
+
+.container{
+
+	height:100%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.login{
+	display:flex;
+	width:30%;
+	height:10rem;
+	margin:auto;
+	justify-content: center;
+	
+	align-items: center;
+	margin-top:15%;
+	flex-direction: column;
+	font-size:1.2rem;
+}
+
+.login input{
+	margin-top:3%;
+	padding:4%;
+	background:rgba(255,255,255,0.7);
+	border:none;
+	font-size:1.1rem;
+	text-align: center;
+	margin-left:-4%;
+}
+
+
+.login a{
+	color:black;
+	text-decoration: none;
+	
+}
+
+.login a:hover{
+	text-decoration: underline;
+}
+
+#submit{
+	margin-left:36%;
+}
+
+#reg{
+	margin-left:32%;
+}
+
+
+#submit:hover{
+	color:white;
+	background: black;
+	transition: ease-in .5s;
+	
+}

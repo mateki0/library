@@ -1,0 +1,132 @@
+html,body{
+	top:0;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	background-color: #272827;
+	color:#eae5e5;
+	overflow-x: hidden;
+}
+
+.welcome{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.search{
+	display:flex;
+	justify-content: center;
+	margin:auto;
+	width:20%;
+	height:2.5rem;
+	background-color: white;
+	opacity:0.4;
+	border:1px solid black;
+	border-radius:5px;
+	font-size:1.2rem;
+	border:transparent;
+	
+}
+
+.submit{
+	font-size:1.1rem;
+	display:flex;
+	justify-content: center;
+	margin:auto;
+	margin-top:1%;
+}
+
+
+
+.list{
+	display:flex;
+	justify-content: center;
+	margin-top:2%;
+	margin-bottom: 2%;
+	
+}
+table,td{
+	border:1px dotted white;
+	width:50%;
+}
+table,th{
+	border:1px solid white;
+}
+
+td{
+	padding-left:1%;
+}
+
+.user{
+	width:100%;
+	height:1.5rem;
+	background: #cecece;
+	color:black;
+	padding:1.2rem;
+}
+
+#logout{
+	margin-left:2%;
+	margin-right:2%;
+	color:dodgerblue;
+	text-decoration: none;
+}
+
+#logout:hover{
+	color:#f5593d;
+	transition: ease-in .5s;
+	
+}
+
+.checkbox{
+	float:right;
+}
+.borrow{
+		display:flex;
+	justify-content:center;
+	
+}
+
+.borrow a{
+	font-weight:600;
+
+	color:#10ce16;
+	text-decoration: none;
+}
+
+.borrow a:hover{
+	color:#f5593d;
+	transition: ease-in .5s;
+	
+}
+
+.borrowed{
+	padding-top:2%;
+	display:flex;
+	justify-content: center;
+	margin:auto;
+}
+
+#nick{
+	color:dodgerblue;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+#nick:hover{
+	color:#f5593d;
+	
+	transition: ease-in .5s;
+}
+
+.user a{
+	color:dodgerblue;
+	text-decoration: none;
+}
+
+.user a:hover{
+	color:dodgerblue;
+
+}
